@@ -1,5 +1,11 @@
 import React from 'react';
 import './App.css';
+
+import {
+  BrowserRouter as Router,
+  Route, Switch, browserHistory
+} from 'react-router-dom';
+
 import Nav from './Components/Nav/Nav';
 import EmailForm from './Components/EmailForm/EmailForm';
 import LandingPage from './Components/LandingPage/LandingPage';
@@ -7,13 +13,16 @@ import Projects from './Components/Projects/Projects';
 
 function App() {
   return (
-    <div className="App">
-  
-        <Nav />
-        <LandingPage />
-        <Projects />
-        <EmailForm />
-    </div>
+    <Router >
+      <div className="App">
+    
+          <Nav />
+          <LandingPage />
+          <Projects />
+          <EmailForm />
+      </div>
+
+    </Router>
   );
 }
 
