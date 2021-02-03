@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
-const Nav = () => {
+const Footer = () => {
     return (
-        <nav>
+        <footer>
             <ul>
                 <li>
                     <a href={'https://github.com/samSterns'} target="_blank">
@@ -16,9 +16,9 @@ const Nav = () => {
                     LinkedIn </a>
                 </li>
             </ul>
-        </nav>
+        </footer>
 
     )
 }
 
-export default Nav;
+export default Footer;

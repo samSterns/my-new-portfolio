@@ -1,0 +1,17 @@
+@mixin google-font($font) {
+    $font: unquote($font);
+    @import url(https://fonts.googleapis.com/css?family=#{$font})
+}
+
+
+@mixin warning {
+    background-color: $theme-color;
+    color: white
+  }
+  
+@mixin large-text {
+    font: {
+        size: 2em;
+        weight: bold;
+    }
+}
