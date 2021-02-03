@@ -49,26 +49,27 @@ function App() {
     <Router >
       <div className="App" className={darkMode ? "dark-mode" : "light-mode"}>
           
-      <nav>
-        <div className="toggle-container">
-        <span style={{ color: darkMode ? "grey" : "#C55337" }}>☀︎</span>
-        <span className="toggle">
-            <input
-            checked={darkMode}
-            onChange={() => setDarkMode(prevMode => !prevMode)}
-            id="checkbox"
-            className="checkbox"
-            type="checkbox"
-            />
-            <label htmlFor="checkbox" />
-        </span>
-        <span style={{ color: darkMode ? "#19838C" : "grey" }}>☾</span>
-        </div>
-      </nav>
-      <LandingPage/>
-      <Projects />
-      <EmailForm />
-      <Footer />
+        <nav>
+          <div className="toggle-container">
+          <span style={{ color: darkMode ? "#353130" : "#C55337" }}>☀︎</span>
+          <span className="toggle" alt ="CLick here to change to dark mode">
+              <input
+              checked={darkMode}
+              onChange={() => setDarkMode(prevMode => !prevMode)}
+              id="checkbox"
+              className="checkbox"
+              type="checkbox"
+              />
+              <label htmlFor="checkbox" />
+          </span>
+          <span style={{ color: darkMode ? "#19838C" : "#353130" }}>☾</span>
+          </div>
+        </nav>
+
+        <LandingPage/>
+        <Projects />
+        <EmailForm />
+        <Footer />
       </div>
 
     </Router>

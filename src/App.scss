@@ -1,17 +1,11 @@
 @import "variables";
 @import "mixin";
 
-
-.App {
+* {
   @include google-font("Alegreya+Sans");
   @include google-font("Titillium+Web");
   font-family: $text-font;
   text-align: center;
-  color: $text-color;
-}
-
-h1 {
-  @include large-text;
 }
 
 ul {
@@ -43,15 +37,15 @@ ul {
 }
 
 .dark-mode {
-  background-color: #1a1919;
+  background-color: #030303;
   color: #999;
 }
 
-nav {
-  width: 100%;
-  display: flex;
-  padding: 20px;
-}
+// nav {
+//   width: 100%;
+//   display: flex;
+//   padding: 20px;
+// }
 
 main {
   padding: 0.5em;
@@ -66,11 +60,25 @@ h1 {
   margin: 0;
 }
 
+button {
+  border-radius: $border-radius;
+  background-image: linear-gradient(to right, $theme-color ,$accent-color);
+  color: #fff;
+  font-weight: bold;
+  margin: 1em;
+  padding: .5em;
+}
+
+button:hover {
+  background-color: $secondary-color;
+  cursor: pointer;
+}
+
 .toggle {
   position: relative;
   padding: 0 4px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 
 input[type="checkbox"].checkbox {

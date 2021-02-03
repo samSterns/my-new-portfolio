@@ -1,0 +1,9 @@
+@import "../../variables";
+@import "../../mixin";
+
+.title-name {
+  
+    background: -webkit-linear-gradient($accent-color, $theme-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
