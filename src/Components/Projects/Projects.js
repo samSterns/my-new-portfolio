@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Projects = () => {
     return (
-        <main>
+        <section>
             <h1>Projects</h1>
             <ul>
                 <li>UX Case Study
@@ -14,7 +14,7 @@ const Projects = () => {
                 </li>
             </ul>
 
-        </main>
+        </section>
 
     )
 }

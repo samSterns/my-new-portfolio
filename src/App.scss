@@ -5,7 +5,22 @@
   @include google-font("Alegreya+Sans");
   @include google-font("Titillium+Web");
   font-family: $text-font;
-  text-align: center;
+  margin: 0 auto;
+
+  @include phone {
+    font-size: 18px;
+    
+
+  }
+
+  @include tablet {
+    font-size: 18px;
+ 
+  }
+
+  @include desktop {
+    font-size: 20px;
+  }
 }
 
 ul {
@@ -32,28 +47,21 @@ ul {
   transition: background-color 0.25s ease-out;
 }
 
-.light-mode nav {
-  transition: background-color 0.25s ease-out;
-}
-
 .dark-mode {
   background-color: #030303;
   color: #999;
 }
 
-// nav {
-//   width: 100%;
-//   display: flex;
-//   padding: 20px;
-// }
+nav {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+}
 
 main {
-  padding: 0.5em;
-  margin: 0 auto;
-  max-width: 600px;
+  max-width: $content-width;
   font-size: 1.2rem;
-  line-height: 1.1;
-  height: 90vh;
+  text-align: center;
 }
 
 h1 {
