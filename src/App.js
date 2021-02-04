@@ -50,9 +50,10 @@ function App() {
       <div className="App" className={darkMode ? "dark-mode" : "light-mode"}>
           
         <nav>
+         
           <div className="toggle-container">
           <span style={{ color: darkMode ? "#353130" : "#C55337" }}>☀︎</span>
-          <span className="toggle" alt ="CLick here to change to dark mode">
+          <span className="toggle" alt ="CLick here to toggle dark mode">
               <input
               checked={darkMode}
               onChange={() => setDarkMode(prevMode => !prevMode)}
@@ -64,6 +65,11 @@ function App() {
           </span>
           <span style={{ color: darkMode ? "#19838C" : "#353130" }}>☾</span>
           </div>
+          {/* <ul>
+            <li>Projects</li>
+            <li>About Me</li>
+          </ul> */}
+
         </nav>
 
         <LandingPage/>

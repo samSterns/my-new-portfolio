@@ -58,11 +58,7 @@ nav {
   padding: 20px;
 }
 
-main {
-  max-width: $content-width;
-  font-size: 1.2rem;
-  text-align: center;
-}
+
 
 h1 {
   margin: 0;
@@ -78,7 +74,7 @@ button {
 }
 
 button:hover {
-  background-color: $secondary-color;
+  background-image: linear-gradient(to right, $secondary-color ,$accent-color);
   cursor: pointer;
 }
 
@@ -86,7 +82,7 @@ button:hover {
   position: relative;
   padding: 0 4px;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 input[type="checkbox"].checkbox {

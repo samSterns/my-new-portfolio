@@ -1,9 +1,25 @@
 @import "../../variables";
 @import "../../mixin";
 
-.title-name {
-  
-    background: -webkit-linear-gradient($accent-color, $theme-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+main {
+    display: flex;
+    max-width: $content-width;
+    font-size: 1.2rem;
+    
+}
+
+.title-wrapper {
+    text-align: center;
+    align-items: center;
+    padding-top: .5em;
+
+    .title-name {
+        font-size: 3em;
+        background: -webkit-linear-gradient($accent-color, $theme-color);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    p {
+        padding: 1em;
+    }
 }

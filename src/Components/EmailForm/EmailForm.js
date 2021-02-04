@@ -1,5 +1,6 @@
 import React from 'react';
-import Pic from '../EmailForm/SamZuriPaint.svg'
+
+import Pic from '../LandingPage/selfPortrait.png';
 import './EmailForm.scss';
 
 export default function EmailForm() {
@@ -7,7 +8,7 @@ export default function EmailForm() {
       
   <section className="email-form-section">
         <div className="img-wrapper">
-            <img style={{height: "500px"}} src={Pic} alt="minimalist vector illustration of a cat"/>
+            <img style={{height: "250px"}} src={Pic} alt="minimalist vector illustration of a cat"/>
         </div>
         <div>
         <h1>Let's Stay in Touch</h1>
