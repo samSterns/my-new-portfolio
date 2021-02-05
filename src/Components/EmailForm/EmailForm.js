@@ -33,7 +33,7 @@ export default function EmailForm() {
             </div>
 
         
-            <button alt="submit message to me" type="submit">Send</button>
+            <button classNAme="send-btn" alt="submit message to me" type="submit">Send</button>
         </form>
         </div>
 

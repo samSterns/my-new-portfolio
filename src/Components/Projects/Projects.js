@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaGithub, FaExternalLink } from 'react-icons/fa';
 import './Project.scss';
 
 const Projects = () => {
@@ -12,6 +13,11 @@ const Projects = () => {
                 <div className="back">
                 <h3>Angular</h3>
                 <p>Good tools make application development quicker and easier to maintain than if you did everyth1ng by hand..</p>
+                <a href={'https://github.com/samSterns'} target="_blank">
+                    <FaGithub alt="click here to visit the project's git hub" size={36}/> 
+                    GitHub </a>
+                    <a  href={'https://github.com/samSterns'} target="_blank">
+                    <i class="fa fa-external-link" aria-hidden="true"></i> See Demo </a>
                 </div>
             </div>
             <div className="flip">
