@@ -2,10 +2,24 @@
 @import "../../mixin";
 
 main {
-    display: flex;
-    max-width: $content-width;
     font-size: 1.2rem;
     
+    @include phone {
+        
+        
+        
+    }
+    
+    @include tablet {
+        
+        
+    }
+    
+    @include desktop {
+      display: flex;
+      max-width: $content-width;
+   
+  }
 }
 
 .title-wrapper {

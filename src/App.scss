@@ -6,9 +6,12 @@
   @include google-font("Titillium+Web");
   font-family: $text-font;
   margin: 0 auto;
-
+  box-sizing: border-box;
+  font-weight: normal;
+ 
   @include phone {
     font-size: 18px;
+
     
 
   }
@@ -61,7 +64,7 @@ nav {
 
 
 h1 {
-  margin: 0;
+  margin: .5em;
 }
 
 button {

@@ -3,12 +3,36 @@
 
 .email-form-section {
     
- 
+    display: flex;
+    text-align: left;
 
+    @include phone {
+        font-size: 18px;
+        flex-direction: column;
+        
+    
+      }
+    
+      @include tablet {
+        font-size: 18px;
+     
+      }
+    
+      @include desktop {
+        font-size: 20px;
+      }
 }
-// .email-form {
-// }
+
+.email-h1 {
+    padding: 0;
+}
 input, textarea {
     border-radius: $border-radius;
+    padding: .5em;
     margin: .5em;
+ 
+}
+
+.salutation {
+    padding: .5em;
 }

@@ -8,22 +8,22 @@ export default function EmailForm() {
       
   <section className="email-form-section">
         <div className="img-wrapper">
+        <h1 className="email-h1">Let's Stay in Touch</h1>
             <img style={{height: "250px"}} src={Pic} alt="minimalist vector illustration of a cat"/>
         </div>
         <div>
-        <h1>Let's Stay in Touch</h1>
         <form className="email-form" name="contact" method="POST" data-netlify="true">
 
-            <p>Dear Sam,</p>
+            <p className="salutation">Dear Sam,</p>
 
             <div className="input-wrapper">
               {/* <label htmlFor="message-body">Message: </label> */}
               <textarea id="message-body" name="message"></textarea>             
             </div>
-            <p>Talk to you soon,</p>
+            <p className="salutation">Talk to you soon,</p>
 
             <div className="input-wrapper">
-              <label htmlFor="name" >Your Name:</label>
+              <label htmlFor="name" >Name:</label>
               <input type="text" id="name" name="name" />
             </div>
 
