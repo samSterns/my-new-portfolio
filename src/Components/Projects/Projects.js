@@ -1,6 +1,8 @@
 import React from 'react';
-import { FaGithub, FaExternalLink } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt, FaArrowRight } from 'react-icons/fa';
 import './Project.scss';
+import { Link } from 'react-router-dom';
+
 
 const Projects = () => {
     return (
@@ -8,34 +10,54 @@ const Projects = () => {
             <h1>Projects</h1>
             <div className="flip">
                 <div className="front">
-                <h2 className="text-shadow">MOUNTAIN</h2>
+                <h2 className="text-shadow">Front End Project</h2>
                 </div>
                 <div className="back">
-                <h3>Angular</h3>
-                <p>Good tools make application development quicker and easier to maintain than if you did everyth1ng by hand..</p>
-                <a href={'https://github.com/samSterns'} target="_blank">
-                    <FaGithub alt="click here to visit the project's git hub" size={36}/> 
-                    GitHub </a>
-                    <a  href={'https://github.com/samSterns'} target="_blank">
-                    <i class="fa fa-external-link" aria-hidden="true"></i> See Demo </a>
+                    <h3>Pet Pals</h3>
+                    <ul>
+                        <li>React.js | Sass | NPM | AWS S3</li>
+                        <li>Group Sprint at Alchemy Code Lab</li>
+                        <li>Contributed to the information architecture and chat feature</li>
+                    </ul>
+                    <a href={'https://github.com/Pet-Project-Alchemy'}      target="_blank">
+                        <FaGithub alt="click here to visit the project's git hub" size={32}/> GitHub 
+                    </a>
+                    <a href={'https://pet-pals.netlify.com'} target="_blank">
+                        <FaExternalLinkAlt alt="click here to Visit this project's deployed site" size={30} /> See Demo 
+                    </a>
                 </div>
             </div>
             <div className="flip">
                 <div className="front">
-                <h2 className="text-shadow">LAKE</h2>
+                <h2 className="text-shadow">UX Case Study</h2>
                 </div>
                 <div className="back">
-                <h3>Angular</h3>
-                <p>Good tools make application development quicker and easier to maintain than if you did everyth2ng by hand..</p>
+                    <h3>Accessability Rating</h3>
+                    <ul>
+                        <li>UX Research | UX Design</li>
+                        <li>Volunteer group for non-profit</li>
+                        <li>something</li>
+                    </ul>
+                    <Link to='/ux-case-study'>
+                        Learn More
+                        <FaArrowRight alt="Learn more about the UX case study" size={32}/> 
+                    </Link>                 
                 </div>
             </div>
             <div className="flip">
                 <div className="front">
-                <h2 className="text-shadow">OCEAN</h2>
+                <h2 className="text-shadow">Accessability Audit</h2>
                 </div>
                 <div className="back">
-                <h3>Angular</h3>
-                <p>Good tools make application development quicker and easier to maintain than if you did everyth1ng by hand..</p>
+                    <h3>Usability Audit</h3>
+                    <ul>
+                        <li>Figma | React | WCAG</li>
+                        <li>Accessability Audit for sustainability start-up</li>
+                    </ul>
+                    <Link to='/accessability-case-study'>
+                        Learn More
+                        <FaArrowRight alt="Learn more about the UX case study" size={32}/> 
+                    </Link>  
                 </div>
             </div>
         </section>
