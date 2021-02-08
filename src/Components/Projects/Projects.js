@@ -38,7 +38,7 @@ const Projects = () => {
                         <li>Volunteer group for non-profit</li>
                         <li>something</li>
                     </ul>
-                    <Link to='/ux-case-study'>
+                    <Link to='/accessability-case-study'>
                         Learn More
                         <FaArrowRight alt="Learn more about the UX case study" size={32}/> 
                     </Link>                 
@@ -54,7 +54,7 @@ const Projects = () => {
                         <li>Figma | React | WCAG</li>
                         <li>Accessability Audit for sustainability start-up</li>
                     </ul>
-                    <Link to='/accessability-case-study'>
+                    <Link to='/ux-case-study'>
                         Learn More
                         <FaArrowRight alt="Learn more about the UX case study" size={32}/> 
                     </Link>  
