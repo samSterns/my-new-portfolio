@@ -3,12 +3,11 @@
 
 .email-form-section {
     
-    display: flex;
+    
     text-align: left;
 
     @include phone {
         font-size: 18px;
-        flex-direction: column;
         
     
       }
@@ -20,6 +19,7 @@
     
       @include desktop {
         font-size: 20px;
+        display: flex;
       }
 }
 

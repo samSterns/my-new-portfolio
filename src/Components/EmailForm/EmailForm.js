@@ -11,6 +11,7 @@ export default function EmailForm() {
         <h1 className="email-h1">Let's Stay in Touch</h1>
             <img style={{height: "250px"}} src={Pic} alt="minimalist vector illustration of a cat"/>
         </div>
+        
         <div>
         <form className="email-form" name="contact" method="POST" data-netlify="true">
 

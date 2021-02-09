@@ -13,8 +13,6 @@
   @include phone {
     font-size: 18px;
 
-    
-
   }
 
   @include tablet {
@@ -25,6 +23,11 @@
   @include desktop {
     font-size: 20px;
   }
+}
+
+html {
+  height: 100%;
+  width: 100%;
 }
 
 

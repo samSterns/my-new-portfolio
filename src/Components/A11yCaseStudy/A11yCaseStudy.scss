@@ -21,13 +21,13 @@ color: #999;
     margin: auto;
     padding: 1em;
     align-content: center;
-    width: 90%;
+    width: 80%;
 
-    @include phone {
-        width: 100%;
-         
-     
-       }
+       @include phone {
+       width: 1000%;
+        
+    
+      }
    
 }
 

@@ -12,7 +12,7 @@ const Projects = () => {
       history.push('/your-path')
     }
     return (
-        <section>
+        <section className="project-section">
             
             <div className="flip">
                 <div className="front">

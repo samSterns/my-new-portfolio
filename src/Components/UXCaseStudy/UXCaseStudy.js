@@ -24,7 +24,7 @@ const darkMode = getPrefColorScheme();
         </header>
         <div id="container-case-study">
             <h1 className="title">Accessability Audit Case Study</h1>
-            <p className="sub-title">Audit of usability issues and accessability requirements for a B2B start-up including designing the solutions, and implemented the code.</p>
+            <p className="sub-title">Audit of usability issues and accessability requirements for a B2B start-up</p>
 
             <div className="wrapper">
               <h2>Design and Development Process</h2>
@@ -61,16 +61,16 @@ const darkMode = getPrefColorScheme();
             <div className="wrapper">
               <h2>Information Architecture</h2>
               <ul>
-                <li>Correctly implemented semantic HTML with the use of header tags and landmarks</li>
-                <li>Taught the development team about not using headers for styling purposes</li>
+                <li>Correctly implemented semantic HTML with the use of header tags and landmarks, which are import for SEO and accessability requirements</li>
+                <li>Taught the development team about not using headers for styling purposes because they are a tool for communicating not decorating</li>
               </ul>
             </div>
             <div className="wrapper">
               <h2>What I Learned</h2>
               <ul>
-                <li>I learned how to complete an accessability audit (obvious, but it was a new venture.</li>
+                <li>I learned how to complete an accessability audit (obvious, but it was a new venture)</li>
                 <li>Implementing solutions into legacy code can be a greater task than designing from scratch</li>
-                <li>I sharpened my knowledge of WCAG requirements and digital accessability while documenting my finding and code implementations</li>
+                <li>I sharpened my knowledge of WCAG requirements and digital accessability while documenting my findings and code implementations</li>
                 <li>I learned more about color consistency and executing it through Scss variables</li>
               </ul>
             </div>

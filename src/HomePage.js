@@ -1,16 +1,8 @@
 import React from 'react';
 import './HomePage.scss';
-
-import {
-  BrowserRouter as Router,
-  Route, Switch, browserHistory
-} from 'react-router-dom';
-
-
-import EmailForm from './Components/EmailForm/EmailForm';
 import LandingPage from './Components/LandingPage/LandingPage';
 import Projects from './Components/Projects/Projects';
-
+import EmailForm from './Components/EmailForm/EmailForm';
 import Footer from './Components/Footer/Footer';
 
 function HomePage() {
@@ -46,7 +38,7 @@ function HomePage() {
   }
 
   return (
-    <Router  >
+    
       <div className="HomePage" className={darkMode ? "dark-mode" : "light-mode"}>
           
         <nav>
@@ -55,6 +47,7 @@ function HomePage() {
           <span style={{ color: darkMode ? "#353130" : "#C55337" }}>☀︎</span>
           <span className="toggle" alt ="CLick here to toggle dark mode">
               <input
+              alt ="CLick here to toggle dark mode"
               checked={darkMode}
               onChange={() => setDarkMode(prevMode => !prevMode)}
               id="checkbox"
@@ -78,7 +71,7 @@ function HomePage() {
         <Footer />
       </div>
 
-    </Router>
+    
   );
 }
 

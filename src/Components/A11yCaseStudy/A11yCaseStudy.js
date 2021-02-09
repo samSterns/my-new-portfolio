@@ -41,7 +41,7 @@ const A11yCaseStudy = () => {
             <div className="wrapper">
             <h2>My Contributions</h2>
                 <h3>User Research</h3>
-                    <ul>Research Methodologies: 10 Interviews and 25 Surveys and still counting</ul>
+                    <ul>Research Methodologies: 10 Interviews, 25 Surveys, and counting</ul>
                         <li>I created criteria and sourced stakeholders, people with disabilities, allies, and design industry experts. </li>
                         <li>My interview and survey questions were carefully selected. I specifically asked questions oriented around current habits. I asked more how questions as apposed to why questions because my goal was to get a deeper understanding of how low-vision and screen reader users approached searching for reviews.</li>
                         <li>After each interview and survey submission, I  conducted a Thematic Analysis by analyzing my notes with a color coordinated highlighting referencing different themes and wrote a synopsis for the design team.</li>
@@ -59,10 +59,10 @@ const A11yCaseStudy = () => {
             <div className="wrapper">
             <h2>What I Learned</h2>
                 <h3>More about Human Centered Design's Research and Inspiration</h3>
-                <p>While creating a product for people with disabilities it is imperative to understand how people other than you navigate a website. Through research and interviews I learned a lot more about screen readers and other assistive devices and gained a greater sense of empathy. </p>
+                <p>While creating a product for people with disabilities it is imperative to understand how people other than yourself navigate a website. I had done my fair share of online research about accessability for other coding projects, but learning people's experiences first hand allows for a depth of understanding that you just can't get from reading. Through research and interviews I learned a lot more about screen readers and other assistive devices. The deep dive into our user's experience gave me a greater sense of empathy and renewed my passion for creating inclusive technology. It was a pleasure to take the time and truly research potential users. With this project I combined all my existing familiarity with digital accessability and I got to interview people for about a month, which set me up to design for others and not myself.</p>
            
                 <h3>Collaborating with a team of designers on a long-term project</h3>
-                <p>It was a pleasure to take the time and truly research potential users. With this project I combined all my existing familiarity with digital accessability and I got to interview people for about a month, which set me up to design for others and not myself. The project is currently implementing and testing our designs.</p>
+                <p> I am collaborating with the other designers. We currently implementing and testing our designs. It is amazing to work on a team of people who self selected to do a project around accessability. The collaboration across the country has taught me about the process of iteration and critique. We have struck a balance between convergent collaboration and divergent autonomous work, and we have developed a report that allows for radical candor.</p>
             </div>
         </div>
     </div>
