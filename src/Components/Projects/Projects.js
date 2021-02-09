@@ -2,15 +2,11 @@ import React from 'react';
 import { FaGithub, FaExternalLinkAlt, FaArrowRight } from 'react-icons/fa';
 import './Project.scss';
 import { Link } from 'react-router-dom';
-import { useHistory } from 'react-router-dom';
+
 
 const Projects = () => {
 
-    let history = useHistory();
-
-    const redirect = () => {
-      history.push('/your-path')
-    }
+   
     return (
         <section className="project-section">
             
