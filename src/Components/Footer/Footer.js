@@ -7,12 +7,12 @@ const Footer = () => {
         <footer>
             <ul className="footer-ul">
                 <li className="footer-li"> 
-                    <a className="footer-a" href={'https://github.com/samSterns'} target="_blank">
+                    <a className="footer-a" href={'https://github.com/samSterns'} target="_blank" rel="noreferrer">
                     <FaGithub alt="click here to Visit my git hub" size={36}/> 
                     GitHub </a>
                 </li>
                 <li className="footer-li"> 
-                    <a className="footer-a" href={'https://www.linkedin.com/in/samsterns/'}>
+                    <a className="footer-a" href={'https://www.linkedin.com/in/samsterns/'} target="_blank" rel="noreferrer">
                     <FaLinkedin alt="click here to Visit my Linked In" size={36}/>
                     LinkedIn </a>
                 </li>
