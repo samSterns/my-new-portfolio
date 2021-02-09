@@ -1,0 +1,27 @@
+@import "../../variables";
+@import "../../mixin";
+
+
+.wrapper-color-contrast {
+    
+    display: flex;
+    flex-direction: row;
+
+    @include phone {
+        width: 100%;
+         flex-direction: column;
+     
+       }
+}
+
+h2 {
+    text-align: center;
+}
+
+figure {
+    padding: .5em;
+}
+
+li {
+    list-style: square;
+}

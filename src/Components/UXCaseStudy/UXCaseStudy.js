@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './UXCaseStudy.scss';
 import Pic from './logoHome.svg';
 import beforeImg1 from './assets/beforeImg.png';
+import after1 from './assets/after1.png';
 
 const UXCaseStudy = () => {
 
@@ -38,7 +39,7 @@ const darkMode = getPrefColorScheme();
                     <li>Google's accessability dev tools</li>
                     <li>Contrast checkers</li>
                     <li>WCAG 2.0 AA standards</li>
-                    <li>Project-specific Design heuristics</li>
+                    <li>Project-specific Design Heuristics</li>
                   </ul> 
               <h3>Test</h3>
                 <li>Created mock-ups in Figma</li>
@@ -47,13 +48,15 @@ const darkMode = getPrefColorScheme();
                 <li>Implemented code in Scss, JSX, React.js</li>
               </ul>
             </div>
-            <div className="wrapper">
-              <h2>Color Contrast</h2>
-              <ul>
-                <li><img style={{height: '250px'}} src={beforeImg1} alt="back to main page" /></li>
-                <li>Throughout the application I cleaned up the color choices by ensuring the correct contract ratios and limiting the number of accent colors</li>
-                <li>To increase usability I ensured button consistency too. Some buttons looks more like links because they lacked an outlines while the status updates looked like buttons</li>
-              </ul>
+              <h2>Color Contrast & UI Consistency</h2>
+            <div className="wrapper-color-contrast">
+                <figure><img style={{height: '250px'}} src={beforeImg1} alt="screenshot of application before" /></figure>
+                <figcaption>To increase usability I ensured the visual consistency of button components. Some buttons looks more like links because they lacked an outlines as seen towards the bottom of the screen. While the status updates in the top right looked like buttons</figcaption>
+
+                <figure><img style={{height: '250px'}} src={after1} alt="screenshot of application after" /></figure>
+                <figcaption>Throughout the application I cleaned up the color choices by ensuring the correct contract ratios and limiting the number of accent colors. As seen by changing the mustard yellow color to dark green</figcaption>
+              
+           
             </div>
             <div className="wrapper">
               <h2>Information Architecture</h2>
