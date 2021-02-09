@@ -20,6 +20,14 @@ color: #999;
 #container-case-study {
     margin: auto;
     padding: 1em;
+    align-content: center;
+    width: 90%;
+
+    @include phone {
+        width: 100%;
+         
+     
+       }
    
 }
 
@@ -38,11 +46,11 @@ color: #999;
 }
 
 .wrapper {
-    border: 1px solid #999;
-    border-radius: $border-radius;
-    padding: .5em;
+    // border: 1px solid #999;
+    // border-radius: $border-radius;
+    padding: 1em;
     margin: .5em;
-    width: 50%;
+   
 
     @include phone {
        width: 90%;
@@ -66,14 +74,29 @@ h3 {
 
 .persona-img-wrapper {
     display: flex;
+    
+    justify-content: space-evenly;
 
+    @include phone {
+        flex-direction: column;
+        width: 100%;
+     
+       }
+       @include tablet {
+        font-size: 18px;
+     
+      }
+    
+      @include desktop {
+        
+      }
 }
 .persona-img {
  
     height: auto;
     margin: 1em;
     @include phone {
-        flex-direction: row;
+      
         width: 90%;
      
        }
@@ -84,10 +107,10 @@ h3 {
     
       @include desktop {
         width: 20%;
-        
       }
-
 }
+
+
 
 
 
