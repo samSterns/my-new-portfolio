@@ -2,13 +2,11 @@
 @import "mixin";
 
 
-
-ul {
+.link-with-icon {
   list-style: none;
   display: inline;
-  li, a {
-    text-decoration: none;
-    color: $secondary-color;
+  text-decoration: none;
+  color: $secondary-color;
   
     :hover {
       text-decoration: underline;
@@ -16,10 +14,9 @@ ul {
     }
     :visited {
       color: $secondary-color;
-    }
-   
-  }
+    } 
 }
+
 
 .light-mode {
   background-color: #fff;

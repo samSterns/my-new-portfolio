@@ -85,3 +85,19 @@ h2 {
     }
 }
 
+
+.link-with-icon, a {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    color: $secondary-color;
+    margin: .2em
+    
+      :hover {
+        text-decoration: underline;
+        color: black;
+      }
+      :visited {
+        color: $secondary-color;
+      } 
+  }

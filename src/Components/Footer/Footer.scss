@@ -1,3 +1,8 @@
+
+
+@import "../../variables";
+@import "../../mixin";
+
 .footer-ul {
     display: flex;
     
@@ -5,8 +10,22 @@
 
 .footer-li {
     align-items: center;
+    list-style: none;
 }
 
 .footer-a {
+
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    color: $secondary-color;
     
-}
+      :hover {
+        text-decoration: underline;
+        color: $theme-color;
+      }
+      :visited {
+        color: $secondary-color;
+      } 
+  }
+
