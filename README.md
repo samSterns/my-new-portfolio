@@ -2,4 +2,4 @@
 
 npm start 
 
-www.sam.g.sterns.com
+www.samgsterns.com

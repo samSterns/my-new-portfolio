@@ -1,34 +1,32 @@
 @import "../../variables";
 @import "../../mixin";
 
-
 .light-mode {
     background-color: #fff;
     color: $text-color;
     transition: background-color 0.25s ease-out;
-  }
-  
+}
 .dark-mode {
 background-color: #030303;
 color: #999;
 }
-
 .header {
     padding: .5em;
 }
 
 #container-case-study {
-    margin: auto;
+  
     padding: 1em;
     align-content: center;
     width: 80%;
 
-       @include phone {
-       width: 1000%;
-        
-    
-      }
+    @include phone {
+      padding: .1em;
+      width: 100%;
+      margin: 0;
    
+     }
+
 }
 
 .title {
@@ -45,69 +43,33 @@ color: #999;
     text-align: center;
 }
 
-.wrapper {
-    // border: 1px solid #999;
-    // border-radius: $border-radius;
-    padding: 1em;
-    margin: .5em;
-   
 
-    @include phone {
-       width: 90%;
-        
-    
-      }
-    
-      @include tablet {
-        font-size: 18px;
-     
-      }
-    
-      @include desktop {
-        font-size: 20px;
-      }
-}
 
 h3 {
     font-size: 1.5em;
+    @include phone {
+        font-size: 1em;
+       }
 }
 
-.persona-img-wrapper {
-    display: flex;
-    
-    justify-content: space-evenly;
 
+.persona-img-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.persona-img-wrapper {
+   
     @include phone {
         flex-direction: column;
-        width: 100%;
-     
        }
-       @include tablet {
-        font-size: 18px;
-     
-      }
-    
-      @include desktop {
-        
-      }
 }
 .persona-img {
- 
+ width: 280px;
     height: auto;
     margin: 1em;
     @include phone {
-      
-        width: 90%;
-     
+        width: auto;
        }
-       @include tablet {
-        font-size: 18px;
-     
-      }
-    
-      @include desktop {
-        width: 20%;
-      }
 }
 
 
