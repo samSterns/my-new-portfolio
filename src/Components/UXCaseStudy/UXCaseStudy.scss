@@ -1,17 +1,40 @@
 @import "../../variables";
 @import "../../mixin";
 
+.light-mode {
+    background-color: #fff;
+    color: $text-color;
+    transition: background-color 0.25s ease-out;
+  }
+  
+.dark-mode {
+background-color: #030303;
+color: #999;
+}
+
+.header {
+    padding: .5em;
+}
+
+#container-case-study {
+    margin: auto;
+    padding: 1em;
+    align-content: center;
+    width: 80%;
+  
+    @include phone {
+        width: 100%;
+        margin: 0;
+       }
+}
 
 .wrapper-color-contrast {
-    
     display: flex;
-    flex-direction: row;
-    width: 80%;
+    flex-direction: column;
 
     @include phone {
         width: 100%;
-         flex-direction: column;
-     
+        flex-direction: row;  
        }
 }
 
