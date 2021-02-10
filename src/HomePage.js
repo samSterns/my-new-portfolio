@@ -39,7 +39,7 @@ function HomePage() {
 
   return (
     
-      <div className="HomePage" className={darkMode ? "dark-mode" : "light-mode"}>
+      <div id="HomePage" className={darkMode ? "dark-mode" : "light-mode"}>
           
         <nav>
          
