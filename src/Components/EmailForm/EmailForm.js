@@ -13,7 +13,7 @@ export default function EmailForm() {
         </div>
 
         <div>
-        <form className="email-form" name="contact" action="/contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+        <form className="email-form" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="contact" />
 
             <p className="salutation">Dear Sam,</p>
