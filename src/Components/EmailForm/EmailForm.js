@@ -13,7 +13,8 @@ export default function EmailForm() {
         </div>
 
         <div>
-        <form className="email-form" name="contact" method="POST" data-netlify="true">
+        <form className="email-form" name="contact" action="/contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact" />
 
             <p className="salutation">Dear Sam,</p>
 
@@ -25,12 +26,12 @@ export default function EmailForm() {
 
             <div className="input-wrapper">
               <label htmlFor="name" >Name:</label>
-              <input type="text" id="name" name="name" />
+              <input required type="text" id="name" name="name" />
             </div>
 
             <div className="input-wrapper">
               <label htmlFor="email">Email:</label>
-              <input type="email" id="email" name="email" />   
+              <input required type="email" id="email" name="email" />   
             </div>
 
         
