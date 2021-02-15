@@ -2,7 +2,7 @@ import React from 'react';
 import './HomePage.scss';
 import LandingPage from './Components/LandingPage/LandingPage';
 import Projects from './Components/Projects/Projects';
-import EmailForm from './Components/EmailForm/EmailForm';
+// import EmailForm from './Components/EmailForm/EmailForm';
 import Footer from './Components/Footer/Footer';
 
 function HomePage() {
@@ -67,7 +67,7 @@ function HomePage() {
 
         <LandingPage/>
         <Projects />
-        <EmailForm />
+        
         <Footer />
       </div>
 
