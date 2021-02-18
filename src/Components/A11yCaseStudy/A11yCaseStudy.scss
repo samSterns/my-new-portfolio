@@ -14,18 +14,17 @@ color: #999;
     padding: .5em;
 }
 
-#container-case-study {
+#container-case-study-a11y {
   
     padding: 1em;
     align-content: center;
-    width: 80%;
+    width: 60%;
 
-    @include phone {
-      padding: .1em;
-      width: 100%;
-      margin: 0;
-   
-     }
+    @media (max-width: 420px) {
+        width: 100%;
+        padding: .5em;
+        margin: 0;
+    }
 
 }
 
@@ -52,6 +51,10 @@ h3 {
        }
 }
 
+h4 {
+    padding: .234em;
+}
+
 
 .persona-img-container {
   display: flex;
@@ -72,6 +75,9 @@ h3 {
        }
 }
 
+figcaption {
+    font-size: 12px;
+}
 
 
 

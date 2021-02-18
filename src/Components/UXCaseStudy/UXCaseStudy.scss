@@ -16,33 +16,38 @@ color: #999;
     padding: .5em;
 }
 
-#container-case-study {
+#container-case-study-audit {
     margin: auto;
     padding: 1em;
     align-content: center;
-    width: 80%;
+    width: 60%;
   
-    @include phone {
+    @media (max-width: 420px) {
         width: 100%;
+        padding: .5em;
         margin: 0;
-       }
+    }
 }
 
 .wrapper-color-contrast {
     display: flex;
     flex-direction: column;
-
-    @include phone {
-        width: 100%;
-        flex-direction: row;  
-       }
+    width: 90%;
+     
+       
 }
 
 h2 {
     text-align: center;
+    padding: .5rem;
+    margin: .5rem;
 }
 
-figure {
+.h3-process {
+    padding: .5rem;
+}
+
+img {
     padding: .5em;
 }
 
