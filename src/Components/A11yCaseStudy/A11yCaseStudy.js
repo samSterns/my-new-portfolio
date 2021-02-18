@@ -5,7 +5,12 @@ import Pic from '../A11yCaseStudy/logoHome.svg';
 import persona1 from '../A11yCaseStudy/assets/persona1.png'
 import persona2 from '../A11yCaseStudy/assets/Persona2.png'
 import persona3 from '../A11yCaseStudy/assets/Persona3.png'
-//import persona4 from '../A11yCaseStudy/assets/Persona4.png'
+import persona4 from '../A11yCaseStudy/assets/Persona4.png'
+import flow1 from '../A11yCaseStudy/assets/UserFlow_Search.png'
+import flow2 from '../A11yCaseStudy/assets/UserFlow_Review.png'
+import story1 from '../A11yCaseStudy/assets/Storyboard_search.png'
+import story2 from '../A11yCaseStudy/assets/Storyboard_postReview.png'
+import sticky1 from '../A11yCaseStudy/assets/sticky1.png'
 
 const A11yCaseStudy = () => {
 
@@ -25,7 +30,7 @@ const A11yCaseStudy = () => {
             </Link>
         </header>
 
-        <div id="container-case-study">
+        <div id="container-case-study-a11y">
             <h1 className="title">Accessability Ratings App Case Study</h1>
             <p className="sub-title">A crowd-sourced disability community platform to rate digital products</p>
 
@@ -55,10 +60,21 @@ const A11yCaseStudy = () => {
                             <img className="persona-img" src={persona1} alt='user persona'/>
                             <img className="persona-img" src={persona2} alt='user persona'/>
                             <img className="persona-img" src={persona3} alt='user persona'/>
-                            
+                            <img className="persona-img" src={persona4} alt='user persona'/>
                         </div>
                     </div>
+               <h3>Storyboards</h3>
+                    <p>Empathy building for people with disabilities as they use similar products.</p>
+                    <h4>Searching Reviews</h4>
+                    <img className="persona-img" src={story1} alt='storyboard'/>
+                    <h4>Posting Reviews</h4>
+                    <img className="persona-img" src={story2} alt='storyboard'/>
                
+               <h3>User FLows</h3>
+                    <h4>Searching Reviews</h4>
+                    <img className="persona-img" src={flow1} alt='user flow'/>
+                    <h4>Posting Reviews</h4>
+                    <img className="persona-img" src={flow2} alt='user flow'/>
             </div>
                 
             <div className="wrapper">
@@ -66,8 +82,10 @@ const A11yCaseStudy = () => {
                 <h3>More about Human Centered Design's Research and Inspiration</h3>
                 <p>While creating a product for people with disabilities it is imperative to understand how people other than yourself navigate a website. I had done my fair share of online research about accessability for other coding projects, but learning people's experiences first hand allows for a depth of understanding that you just can't get from reading. Through research and interviews I learned a lot more about screen readers and other assistive devices. The deep dive into our user's experience gave me a greater sense of empathy and renewed my passion for creating inclusive technology. It was a pleasure to take the time and truly research potential users. With this project I combined all my existing familiarity with digital accessability and I got to interview people for about a month, which set me up to design for others and not myself.</p>
            
-                <h3>Collaborating with a team of designers on a long-term project</h3>
+                <h3>Collaborating with a remote team of designers on a long-term project</h3>
                 <p> I am collaborating with the other designers. We currently implementing and testing our designs. It is amazing to work on a team of people who self selected to do a project around accessability. The collaboration across the country has taught me about the process of iteration and critique. We have struck a balance between convergent collaboration and divergent autonomous work, and we have developed a report that allows for radical candor.</p>
+                <img className="persona-img" src={sticky1} alt='the cliche sticky notes'/>
+                <figcaption>What is a case study without the sticky note screenshot?</figcaption>
             </div>
         </div>
     </div>
