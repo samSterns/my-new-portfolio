@@ -11,6 +11,8 @@ import flow2 from '../A11yCaseStudy/assets/UserFlow_Review.png'
 import story1 from '../A11yCaseStudy/assets/Storyboard_search.png'
 import story2 from '../A11yCaseStudy/assets/Storyboard_postReview.png'
 import sticky1 from '../A11yCaseStudy/assets/sticky1.png'
+import atomicDesign from '../A11yCaseStudy/assets/Atomic_Design.png'
+import palette from '../A11yCaseStudy/assets/ColorPallet_Contrast_ColorblindViews.svg'
 
 const A11yCaseStudy = () => {
 
@@ -75,6 +77,13 @@ const A11yCaseStudy = () => {
                     <img className="persona-img" src={flow1} alt='user flow'/>
                     <h4>Posting Reviews</h4>
                     <img className="persona-img" src={flow2} alt='user flow'/>
+                <h3>Design System</h3>
+                    <h4>Atomic Design</h4>
+                    <img className="persona-img" src={atomicDesign} alt='colors and symbols create small components, which then make up the large components'/>
+                    <p>The small atoms of colors and typography create the molecules of small components like buttons. Large organism, like this header for example, is composed of molecules using the same elemental particles to create a cohesive Design System.</p>
+                    <h4>High Contrast Color Pallet</h4>
+                    <img className="persona-img" src={palette} alt='color palette'/>
+                    <p>All of the colors meet the Web Content Accessability Guideline of being perceivable by having a color contrast greater than 4.5 no matter a users perception of color.</p>
             </div>
                 
             <div className="wrapper">
