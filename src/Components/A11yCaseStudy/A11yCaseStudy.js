@@ -40,9 +40,9 @@ const A11yCaseStudy = () => {
                 <h2>The Problem</h2>
                 <p>Online reviews do not provide a good user experience for someone who has low-vision or uses a screen reader. </p>
                 <ul>
-                    <li>How can we improve the experience for people with disabilities when reading or listening to reviews? </li>
+                    <li> How can we improve the experience for people with disabilities when reading or listening to reviews? </li>
                     <li> How can we create a trusted community and gather informative reviews?</li> 
-                    <li>How can we improve searching through reviews to find accessability related topics?</li>
+                    <li> How can we improve searching through reviews to find accessability related topics?</li>
                 </ul>
             </div>
 
