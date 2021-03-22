@@ -48,6 +48,8 @@ const A11yCaseStudy = () => {
 
             <div className="wrapper">
             <h2>My Contributions</h2>
+            <a className="link-with-icon" href={'https://www.figma.com/proto/00I3py98M15NPWp0uKXOAB/A11y_Project_Personas?node-id=305%3A1668&scaling=min-zoom'} target="_blank" rel="noreferrer"> Figma Prototype </a>
+            <a className="link-with-icon" href={'https://github.com/Accessifiers/AccessibilityRatings'} target="_blank" rel="noreferrer">   |  Git Hub</a>
                 <h3>User Research</h3>
                     <p>Research Methodologies: 10 Interviews, 25 Surveys, and counting</p>
                     <ul>
@@ -84,6 +86,7 @@ const A11yCaseStudy = () => {
                     <h4>High Contrast Color Pallet</h4>
                     <img className="persona-img" src={palette} alt='color palette'/>
                     <p>All of the colors meet the Web Content Accessability Guideline of being perceivable by having a color contrast greater than 4.5 no matter a users perception of color.</p>
+               
             </div>
                 
             <div className="wrapper">
